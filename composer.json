@@ -1,0 +1,24 @@
+{
+    "name": "rkuzovlev/google-api-php-client",
+    "type": "library",
+    "description": "Google API library for PHP (with namespaces). Version 1.0.1 of original code.",
+    "keywords": ["google","gdata","google api"],
+    "homepage": "https://github.com/rkuzovlev/google-api-php-client",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Kuzovlev Roman",
+            "email": "rkuzovlev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl" : "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "RKuzovlev\\GoogleAPI": "src"
+        }
+    }
+
+}
