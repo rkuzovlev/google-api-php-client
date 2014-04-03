@@ -284,7 +284,6 @@ class MediaFileUpload
     }
 
     $response = $this->client->getIo()->makeRequest($this->request);
-    var_dump($response);
     $location = $response->getResponseHeader('location');
     $code = $response->getResponseHttpCode();
 
